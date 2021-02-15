@@ -1,0 +1,16 @@
+@import "./variables";
+
+.card {
+  padding: 1rem;
+  background: white;
+  border: 1px solid #eae9e9;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}

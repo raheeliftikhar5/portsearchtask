@@ -1,0 +1,44 @@
+#graph {
+  .legend {
+    .legend-text {
+      text-transform: capitalize;
+      fill: black;
+    }
+  }
+
+  .mouse-line {
+    stroke: #A9A9A9;
+    stroke-width: 2px;
+    opacity: 0;
+    
+    &.show {
+      opacity: 1;
+    }
+  }
+
+  .tooltip {
+    display: none;
+    position: absolute;
+    left: auto;
+    top: auto;
+    background-color: white;
+
+    .label {
+      display: inline-block;
+      width: 50px;
+    }
+
+    &.show {
+      display: block;
+      padding: 10px;
+      border: 1px solid black;
+    }
+    
+    > * {
+      display: block;
+      margin: 0 0 8px 0;
+      text-transform: capitalize;
+      font-size: 14px;
+    }
+  }
+}

@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
-import App from './pages/App';
+import { Provider } from 'react-redux';
+import store from 'store/store';
+import AppHOC from './pages/AppHOC';
 import reportWebVitals from './reportWebVitals';
+import './assets/styles/main.scss';
+import './index.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <AppHOC />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root'),
 );

@@ -1,0 +1,17 @@
+.react-daterange-picker {
+  &__wrapper {
+    border-radius: 0;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 4.55px;
+    margin-bottom: 0.5rem;
+  }
+
+  &__inputGroup__input {
+    color: hsl(0, 0%, 20%);
+    &:focus {
+      outline: none;
+    }
+  }
+}

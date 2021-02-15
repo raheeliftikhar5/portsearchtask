@@ -1,0 +1,20 @@
+.custom-select {
+  width: 200px;
+  margin-right: 1rem;
+
+  &__control {
+    border-radius: 0 !important;
+    border-color: black !important;    
+
+    &:hover,
+    &:active,
+    &:focus{
+      border-color: black !important;
+      box-shadow: none !important;
+    }
+  }
+
+  &__indicator-separator {
+    display: none;
+  }
+}

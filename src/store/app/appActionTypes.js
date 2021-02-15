@@ -1,0 +1,4 @@
+export const SET_APP_LOADER = 'SET_APP_LOADER';
+export const SET_RATES_LOADER = 'SET_RATES_LOADER';
+export const SET_PORTS_LIST = 'SET_PORTS_LIST';
+export const SET_MAKET_RATES = 'SET_MAKET_RATES';
