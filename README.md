@@ -1,3 +1,13 @@
+
+# Task 2
+
+d3.js generates graph using svg. To download this graph, there are following steps:
+- Convert svg string to data URL
+- Create an html image element with above data URL as source
+- Paint the above image on canvas
+- Download canvas image using FileSaver.js library.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
